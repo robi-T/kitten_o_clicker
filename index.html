@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Image clicker counter super-mini-app</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>The KittenO'Clicker</header>
+    <main>
+        <div class='container'>
+            <p>
+                <label>Choose a kitten: </label>
+                <select id='kittenSelector'>
+                </select>
+            </p>
+            <div id='kittenShowcase'>
+            </div>
+            <div id="adminArea">
+                <button id="adminBtn" type="button">Admin</button>
+                <form id="adminAreaForm" role="form" novalidate>
+                    <label for="kittyNameInput">Name of the kitty: </label><br>
+                    <input type="text" id="kittyNameInput" placeholder=""><br>
+
+                    <label for="kittyImgUrlInput">Image URL: </label><br>
+                    <input type="text" id="kittyImgUrlInput" placeholder=""><br>
+
+                    <label for="kittyNumOfClicksInput">Number of clicks: </label><br>
+                    <input type="number" id="kittyNumOfClicksInput" placeholder=""><br>
+                    
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    </div>
+</body>
+<script src="app_mvo.js"></script>
+
+</html>
